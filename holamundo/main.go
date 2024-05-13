@@ -1,7 +1,7 @@
 package main
 
 import (
-	"holamundo/saludo"
+	"github.com/untref-ed/intro-go/holamundo/saludo"
 )
 
 func main() {

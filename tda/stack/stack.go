@@ -11,8 +11,8 @@ func (s *Stack) Push(x string) {
 	s.data = append(s.data, x)
 }
 
-// Pop remueve y retorna el valor en el tope de la pila.
-// Devuelve un `error` si la pila está vacía.
+// Pop remueve y retorna el valor en el tope de la pila. Devuelve un `error` si
+// la pila está vacía.
 func (s *Stack) Pop() (string, error) {
 	if s.Size() == 0 {
 		return "", errors.New("empty stack")

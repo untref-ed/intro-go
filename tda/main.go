@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"tda/stack"
+
+	"github.com/untref-ed/intro-go/tda/stack"
 )
 
 func main() {
